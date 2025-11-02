@@ -35,3 +35,29 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# ===== Java / Gradle =====
+api-java/.gradle/
+api-java/build/
+api-java/out/
+api-java/.mvn/
+
+# ===== .NET / C# =====
+client-csharp/**/bin/
+client-csharp/**/obj/
+
+# ===== Python =====
+worker-python/.venv/
+worker-python/__pycache__/
+worker-python/*.pyc
+
+# ===== VS Code =====
+.vscode/
+*.code-workspace
+
+# ===== macOS =====
+.DS_Store
+
+# ===== Environment files =====
+.env
+.env.*
